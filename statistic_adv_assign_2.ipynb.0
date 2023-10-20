@@ -1,0 +1,343 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "ad222a4b-c268-43df-a82d-26604ee184a3",
+   "metadata": {},
+   "source": [
+    "Q1: What are the Probability Mass Function (PMF) and Probability Density Function (PDF)? Explain with\n",
+    "an example."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "159ba88a-4f19-4428-9641-082878c63cb4",
+   "metadata": {},
+   "source": [
+    "PMF: discreate random variable eg: rolling a dice\n",
+    "Consider rolling a fair six-sided die. The possible outcomes are 1, 2, 3, 4, 5, and 6. The PMF of this random variable would assign a probability to each of these outcomes. Since each outcome has an equal probability of \n",
+    "1\n",
+    "6\n",
+    "6\n",
+    "1\n",
+    "​\n",
+    " , the PMF for this scenario would be:\n",
+    "\n",
+    "�\n",
+    "(\n",
+    "�\n",
+    "=\n",
+    "�\n",
+    ")\n",
+    "=\n",
+    "1\n",
+    "6\n",
+    "P(X=k)= \n",
+    "6\n",
+    "1\n",
+    "​\n",
+    "\n",
+    "PDF: distribution of continiuos random variable \n",
+    "Consider the standard normal distribution, which is a continuous probability distribution. It is described by the bell-shaped curve of the normal distribution. The PDF of the standard normal distribution is:\n",
+    "\n",
+    "�\n",
+    "(\n",
+    "�\n",
+    ")\n",
+    "=\n",
+    "1\n",
+    "2\n",
+    "�\n",
+    "�\n",
+    "−\n",
+    "�\n",
+    "2\n",
+    "2\n",
+    "f(x)= \n",
+    "2π\n",
+    "​\n",
+    " \n",
+    "1\n",
+    "​\n",
+    " e \n",
+    "− \n",
+    "2\n",
+    "x \n",
+    "2\n",
+    " \n",
+    "​\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "836f4d86-5c20-4433-bbdb-ec73a2dca679",
+   "metadata": {},
+   "source": [
+    "Q2: What is Cumulative Density Function (CDF)? Explain with an example. Why CDF is used?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "45524e12-d86f-4c05-9706-7e65e3e2749f",
+   "metadata": {},
+   "source": [
+    "The Cumulative Distribution Function (CDF) is a mathematical function that gives the probability that a random variable takes on a value less than or equal to a specific value. In other words, it provides the cumulative probability distribution of a random variable.\n",
+    "\n",
+    "Example:\n",
+    "\n",
+    "Let's consider the same example of rolling a fair six-sided die. The Cumulative Distribution Function (CDF) for this scenario would be:\n",
+    "\n",
+    "�\n",
+    "(\n",
+    "�\n",
+    ")\n",
+    "=\n",
+    "�\n",
+    "(\n",
+    "�\n",
+    "≤\n",
+    "�\n",
+    ")\n",
+    "F(x)=P(X≤x)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "487dfeda-5d75-4b4b-9ef9-c063871f0940",
+   "metadata": {},
+   "source": [
+    "Q3: What are some examples of situations where the normal distribution might be used as a model?\n",
+    "Explain how the parameters of the normal distribution relate to the shape of the distribution."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2eae1f3c-6c39-4c88-a283-051ed4327a64",
+   "metadata": {},
+   "source": [
+    "a normal distribution or guassian distribution is a type of continiuos prabbability distribution for a real- valued random variable.\n",
+    "for real life model like to calculate the avg. height of the the classroom.\n",
+    "a normal distribution is always a bell curved  "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d17e43ea-80d5-4f92-9054-5dae897bc762",
+   "metadata": {},
+   "source": [
+    "Q4: Explain the importance of Normal Distribution. Give a few real-life examples of Normal\n",
+    "Distribution."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "76b7dfd2-9a5b-4bd5-8041-0089f46c15d8",
+   "metadata": {},
+   "source": [
+    "The Normal Distribution is crucial in statistics and various fields due to its properties and prevalence in real-world phenomena. Here are some key points about its importance and real-life examples:\n",
+    "\n",
+    "Importance of Normal Distribution:\n",
+    "Central Limit Theorem\n",
+    "Predictive Models\n",
+    "Real-life Examples of Normal Distribution:\n",
+    "Height of Individuals: In a large population, heights tend to follow a normal distribution. Most people are around the average height, with fewer individuals at the extremes.\n",
+    "\n",
+    "IQ Scores: IQ scores are designed to follow a normal distribution, with the mean set at 100."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8456bef3-7739-42b5-8535-503f1eb81abd",
+   "metadata": {},
+   "source": [
+    "Q5: What is Bernaulli Distribution? Give an Example. What is the difference between Bernoulli\n",
+    "Distribution and Binomial Distribution?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f18c08fc-e000-483a-a05b-50fa5febe395",
+   "metadata": {},
+   "source": [
+    "it is a discreate random variable, outcomes are binary eg: tosssing a coin pr(H), pr(T) , wheater the person fail or pass\n",
+    "\n",
+    "diff. between bernoulli nad binomial distribution\n",
+    "in binomial the experimant is performed for n-time but in bernoulli it is not like that"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "948331a3-9785-48e1-80f6-c5fcdc43fa13",
+   "metadata": {},
+   "source": [
+    "Q6. Consider a dataset with a mean of 50 and a standard deviation of 10. If we assume that the dataset\n",
+    "is normally distributed, what is the probability that a randomly selected observation will be greater\n",
+    "than 60? Use the appropriate formula and show your calculations."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "2f3cf61f-5f85-4565-b61d-9d286fb4089e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from scipy.stats import norm"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "9095db7a-8632-4d82-81da-39443a5a0214",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# defining the para meters\n",
+    "mean=50\n",
+    "std_dev=10\n",
+    "value=60\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "b19edcc1-6581-4f81-9c90-16aba0216abe",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "z_score = (value - mean) / std_dev\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "6ee68e7a-9c02-427a-b5d1-739fbcfeee66",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The probability that a randomly selected observation will be greater than 60 is approximately 0.1587\n"
+     ]
+    }
+   ],
+   "source": [
+    "probability= 1-norm.cdf(z_score)\n",
+    "print(f\"The probability that a randomly selected observation will be greater than 60 is approximately {probability:.4f}\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ebe5c6af-7275-45ae-b363-62d4e1864b73",
+   "metadata": {},
+   "source": [
+    "Q7: Explain uniform Distribution with an example."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4b725b7b-f8ac-4671-b061-2bcfb620dc32",
+   "metadata": {},
+   "source": [
+    " uniform distribution, also known as a rectangular distribution, is a probability distribution where all outcomes in a sample space are equally likely. This means that each possible outcome has the same probability of occurring. In a continuous uniform distribution, all values within a specified range are equally likely to occur.\n",
+    " eg: rolling adice {1,2,3,4,5,6}\n",
+    " pr(1)=1/6,pr(2)=1/6,pr(n)=1/6\n",
+    " 1/n=n=b-a+1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d2072d01-c382-4265-abeb-a885d98cb631",
+   "metadata": {},
+   "source": [
+    "Q8: What is the z score? State the importance of the z score."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d9fd6ec7-9103-4890-aa7e-26ad4a2518f1",
+   "metadata": {},
+   "source": [
+    "The z-score, also known as the standard score, is a measure of how many standard deviations an element is from the mean of a dataset. It's a way of standardizing data so that we can compare different values from different distributions.\n",
+    "\n",
+    "The formula for calculating the z-score of a data point \n",
+    "\n",
+    "X in a dataset with mean \n",
+    "\n",
+    "μ and standard deviation \n",
+    "\n",
+    "σ is:\n",
+    "\n",
+    "\n",
+    "=\n",
+    "\n",
+    "Z= \n",
+    "σ\n",
+    "X−μ\n",
+    "​\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f0e8af5a-8dcf-47a0-a1be-aafeafc54509",
+   "metadata": {},
+   "source": [
+    "Q9: What is Central Limit Theorem? State the significance of the Central Limit Theorem."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e5f6535e-cb3a-42f8-a9ab-584d8a68f7e9",
+   "metadata": {},
+   "source": [
+    "centeral limit theoram says that the sampling distribution of the mean will always be naormally distribution, as long as the sample size is large enough.regardless of weateher the population has a normal,poision,binomial or any other distribution,the sampling of the distriution of the mean will be normal"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5c678d10-6f7d-4cd7-a539-59576b0f2a89",
+   "metadata": {},
+   "source": [
+    "Q10: State the assumptions of the Central Limit Theorem."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3c14d785-5ee4-4a6e-8a7c-be719bdc69a9",
+   "metadata": {},
+   "source": [
+    "The Central Limit Theorem (CLT) is a fundamental principle in statistics that describes the behavior of the sampling distribution of the sample mean (or sum) as the sample size increases, regardless of the shape of the original population distribution. The assumptions of the Central Limit Theorem are:\n",
+    "Random Sampling: The data should be obtained through a random sampling process. This means that each observation should be independent and identically distributed (i.i.d.) from the population.\n",
+    "\n",
+    "Independence: The individual observations in the sample should be independent of each other. This means that the occurrence of one event should not affect the occurrence of another.\n",
+    "\n",
+    "Sample Size: The sample size should be large enough. Although there is no strict rule, a common guideline is that the sample size should be at least 30. However, for populations that are heavily skewed or have heavy tails, a larger sample size might be required.\n",
+    "\n",
+    "Population Distribution Shape: The Central Limit Theorem is quite robust, and it works reasonably well even if the population distribution is not exactly normal. However, for highly non-normal populations, very small sample sizes, or extreme outliers, the CLT might not apply."
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
